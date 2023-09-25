@@ -1,4 +1,10 @@
 /* Program to count number of chars words sentences spaces and lines. */
+/*
+To run the program: 
+lex program.l
+gcc lex.yy.c
+./a.out < input.txt
+*/
 
 %{
 #include<stdio.h>
