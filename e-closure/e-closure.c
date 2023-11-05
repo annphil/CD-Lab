@@ -40,10 +40,8 @@ int main(){
 		add_state(state,i++);
 		while(1){
 			end = fscanf(INPUT,"%s%s%s",state1,input,state2);
-			if (end == EOF ){
-				break;
-			}
-				
+			if (end == EOF )
+				break;	
 			if( strcmp(state,state1) == 0 ){
 				if( strcmp(input,"e") == 0 ) {
 					add_state(state2,i++);
