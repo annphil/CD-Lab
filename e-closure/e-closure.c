@@ -22,18 +22,16 @@ void display(int n){
 }
 
 int main(){
-    FILE *INPUT;
-    INPUT=fopen("input.dat","r");
-    char state[3];
-    int end,i=0,n,k=0;
-    char state1[3],input[3],state2[3];
-    printf("Enter the no of states: ");
-    scanf("%d",&n);
-    printf("Enter the states: ");
-    for(k=0;k<n;k++){
+	FILE *INPUT;
+	INPUT=fopen("input.dat","r");
+	char state[3];
+	int end,i=0,n,k=0;
+	char state1[3],input[3],state2[3];
+	printf("Enter the no of states: ");
+	scanf("%d",&n);
+	printf("Enter the states: ");
+	for(k=0;k<n;k++)
 		scanf("%s",states[k]);
-		
-	}
 	
 	for( k=0;k<n;k++){
 		i=0;
