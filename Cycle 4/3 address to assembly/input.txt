@@ -1,0 +1,5 @@
+a=a*b
+c=f*h
+f=Q+w
+t=q-j
+exit
